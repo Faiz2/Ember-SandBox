@@ -8,6 +8,7 @@ const Router = EmberRouter.extend({
 
 Router.map(function() {
   this.route('github-user');
+  this.route('table');
 });
 
 export default Router;
